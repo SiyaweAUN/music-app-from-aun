@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content ="width=device-width,initial-scale = 1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Hot 100</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                    <div class="songInfor" id="songInfor"></div>
+                <div class="rightColumn">
+                <div class="songImage" id = "songImage"></div>
+                <div class="songsContainer" id="songsContainer"></div>
+                <audio id="audio" src=""></audio>
+                <div class="progressContainer" id="progressContainer">
+                    <input type="range" id="progressBar" value="0" min="0" max="100" step="0.1">
+                </div>
+            <div class="musicButtons" id="musicButtons">
+                <div class="buttons">
+                    <button id="previous">⏮️</button>
+                    <button id="pausePlay">▶️</button>
+                    <button id="next">⏭️</button>
+                    <button id ="Playlist">Playlist</button>
+                </div>
+            </div>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
